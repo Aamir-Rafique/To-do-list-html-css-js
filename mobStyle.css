@@ -1,0 +1,27 @@
+@media (max-width: 721px) {
+
+
+    body {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #98fcc0;
+        gap: 3.5vmax;
+    }
+
+
+
+    body h1 {
+        margin-top: 15vmax;
+    }
+
+    .container {
+        width: 70%;
+    }
+
+    footer p {
+        font-size: 1.3vmax;
+    }
+}

@@ -8,7 +8,7 @@ function enterTask() {
     if (inputText.value !== "" && inputText.value !== " ") {
         let newTask = document.createElement("h2");
         const checkBox = document.createElement("input");
-        const lineBreak = document.createElement("br");
+        // const lineBreak = document.createElement("br");
         let task = document.createElement("div");
         checkBox.type = "checkbox";
         count++;
